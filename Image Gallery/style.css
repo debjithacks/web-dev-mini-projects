@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.product-small-img img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+}
+
+.product-small-img img:hover{
+    opacity: 1;
+}
+
+.product-small-img {
+    float: left;
+}
+
+.product{
+    top: 50%;
+    left: 29%;
+    transform: translate(-50% , -50%);
+    position:absolute;
+    padding-left: 50px;
+}
+
+.img-container img{
+    height: 500px;
+}
+
+.img-container{
+    height: 500px;
+}
+
+.img-container{
+    float: right;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.product-details {
+    flex: 1;
+    padding-left: 38%;
+    margin: 158px;
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-details p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.product-details ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.product-details ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rating span {
+    font-size: 18px;
+    color: #28a745;
+    margin-right: 10px;
+}
+
+.rating p {
+    color: #888;
+    margin: 2px;
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.current-price {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+}
+
+.discount {
+    color: #28a745;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-now {
+    background-color: #e63946;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.on-flipkart {
+    background-color: #fff;
+    color: #e63946;
+    border: 1px solid #e63946;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
